@@ -10,7 +10,7 @@ matrix:
   fast_finish: true
   include:
   - compiler: gcc
-    os: linux
+    os: linux-ppc64le
     script:
     - mkdir build
     - cd build
